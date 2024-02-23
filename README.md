@@ -49,4 +49,5 @@ If you have any questions or feedback, feel free to reach out to us at [contact@
 
 
 ## Link netlify
-[Ini link nya]()
+w
+[Ini link nya](https://65d8744b802729d3ab8e3dc8--ubiquitous-faloodeh-de2e57.netlify.app/)

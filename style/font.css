@@ -1,0 +1,102 @@
+/* header */
+.navigation-container > .logo{
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: yellow;
+}
+.navigation-container .nav > a{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5em;
+    color: yellow;
+
+
+}
+
+/* ctas */
+.home-container{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.4598214285714286) 11%, rgba(143,143,143,0.4150035014005602) 65%, rgba(255,255,255,0) 89%);
+}
+
+.home-container .cta-text >h1{
+    font-family: "Playfair Display", serif;
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 6em;
+    
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+.home-container .cta-text > h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 1.5em; 
+}
+.button-container > *{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5em; 
+}
+/* about */
+.about-container>p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+}
+.about-container>h1{
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+}
+/* form */
+.myForm  label {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5em; 
+    color: white;
+}
+.contact-container button{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+}
+@media screen and (max-width: 768px) {
+    /* header */
+.navigation-container > .logo{
+    font-size: 2em;
+}
+.navigation-container .nav > a{
+    font-size: 1.5em;
+
+
+}
+
+/* ctas */
+.home-container{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.4598214285714286) 11%, rgba(143,143,143,0.4150035014005602) 65%, rgba(255,255,255,0) 89%);
+}
+
+.home-container .cta-text >h1{
+    font-size: 2em;
+    -webkit-text-stroke-width: 0.4px;
+
+}
+.home-container .cta-text > h3{
+    font-size:0.8em; 
+}
+.button-container > *{
+    font-size: 0.8em; 
+}
+/* about */
+.about-container>p{
+    font-size: 1em;
+}
+.about-container>h1{
+    font-size: 1.2em;
+}
+/* form */
+.myForm  label {
+    font-size: 0.8em; 
+
+}
+.contact-container button{
+    font-size: 0.5em;
+}
+}   

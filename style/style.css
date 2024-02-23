@@ -1,0 +1,105 @@
+/* navbar */
+.navigation-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  black;
+}
+.nav{
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+@keyframes enlargeFont {
+    0% {
+        font-size: 150%;
+    }
+    100% {
+        font-size: 200%;
+    }
+}
+
+
+
+.nav > a:hover {
+    color: rgb(192, 255, 119);
+    animation-name: enlargeFont;
+    animation-duration: 1s; 
+    animation-delay: 50ms; 
+    animation-timing-function: ease-in; 
+    animation-fill-mode: forwards; 
+}
+.nav > a {
+    justify-content: center;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+/* hamburger nav in mobike */
+
+/* CTA */
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.button-container > *{
+    border: 0px solid black;
+    background-color: rgb(252, 255, 96);
+    text-decoration: none;
+    color: inherit;
+   
+
+
+}
+/* transition */
+.button-container > a {
+    transition: background-color 1s ease-in 50ms, font-size 1s ease-in 50ms; /* Apply transition to background-color and font-size */
+}
+
+.button-container > a:hover {
+    background-color: rgb(192, 255, 119); /* Change background color on hover */
+    font-size: 180%; /* Enlarge font size on hover */
+}
+
+
+/* add to media querys */
+.banner{
+    background-image:url("./Image/Urbanfarming.jpg") ;
+    background-color: #cccccc;
+    background-size: cover;
+}
+/* about */
+/* about list */
+/* list */
+.about-container > ul > li::before{
+    content: '\2605'; 
+    color: pink; 
+    margin-left: 5px; 
+    font-size: 1.2em; 
+}
+.about-container >ul{
+    list-style-type: none;
+}
+/* form */
+.myForm > button:hover{
+    background-color: rgb(192, 255, 119);
+    
+  }
+  
+
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+    background-size: contain; /* Scale the background image to fit within the container */
+    background-position: center; /* Center the background image horizontally and vertically */
+    background-repeat: no-repeat;
+    }
+  }

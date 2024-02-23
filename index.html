@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <style>
+      @import url(./style/layout.css);
+      @import url(./style/font.css);
+      @import url(./style/style.css);
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Farsan&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 
+        font-family: "Playfair Display", serif;
+        font-family: "Farsan", cursive;
+        font-family: "Abril Fatface", serif;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-family: "Titillium Web", sans-serif;
+
+     -->
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="navigation-container">
+      <div class="logo">Urban Solarium</div>
+      <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <div class="banner">
+        <div class="home-container" id="home">
+            <div class="cta-text">
+              <h1>Grow your own food, herbs and vegetable on your yard</h1>
+              <h3>Selling Fresh herbs and plants seeds since 1984</h3>
+              
+            </div>
+            <div class="button-container">
+              <a href="#about" class="primary-button">Get started!</a>
+              <a href="#contact" class="secondary-button">Order now!</a>
+            </div>
+          </div>
+    </div>
+
+    <div class="about-container" id="about">
+        <h1>About us</h1>
+        <br>
+        <p>Welcome to Urban Solarium, your one-stop destination for premium seeds and herb plants! With a rich heritage dating back to 1984, we have been dedicated to providing high-quality seeds and herb plants to enthusiasts and gardeners alike.</p>
+        <br>
+        <p>At Urban Solarium, we believe in the power of nature to enrich our lives. That's why we are passionate about offering a wide variety of seeds and herb plants, carefully curated to meet the needs of urban gardeners, hobbyists, and professionals. Whether you're looking to start your own herb garden, grow fresh produce, or simply add some greenery to your living space, we have everything you need to kickstart your gardening journey.</p>
+        <br>
+        <p>Our commitment to quality extends beyond our products. We strive to provide exceptional customer service and expert advice to ensure your gardening experience is enjoyable and successful. Our team of experienced horticulturists is here to assist you every step of the way, from selecting the right seeds to troubleshooting any challenges you may encounter.</p>
+        <br>
+        <p>Join us in our mission to cultivate green spaces and promote sustainability in urban environments. Together, we can create vibrant, thriving communities that embrace the beauty and benefits of gardening.</p>
+        <br>
+        <ul>
+            <li>We have variety of herbs</li>
+            <li>We ensure The higest standards to our product </li>
+            <li>We employ the best Agriculture engineer to provide unforgetable taste</li>
+        </ul>
+        <div class="grid-container">
+          <div class="card">
+            <picture class="hns">
+                <!-- For smaller phones -->
+                <source media="(max-width: 799px)" srcset="./asset/hns/hns-800w.jpg">
+                <!-- For larger phones and desktops -->
+                <source media="(min-width: 800px)" srcset="./asset/hns/hns-480w.jpg">
+                <!-- Default image for browsers that do not support the <picture> element -->
+                <img src="./asset/hns/hns-800w.jpg" alt="Herbs and spices" style="width: 100%;">
+            </picture>
+            <div class="card-text">
+                <h3>Herbs and spices</h3>
+                <p>View all herbs and spices, whether it's seeds or plant</p>
+                <button>View products!</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <picture class="vg">
+                <!-- For smaller phones -->
+                <source media="(max-width: 799px)" srcset="./asset/vg/vg-800w.jpg">
+                <!-- For larger phones and desktops -->
+                <source media="(min-width: 800px)" srcset="./asset/vg/vg-480w.jpg">
+                <!-- Default image for browsers that do not support the <picture> element -->
+                <img src="./asset/vg/vg-800w.jpg" alt="Vegetable" style="width: 100%;">
+            </picture>
+            <div class="card-text">
+                <h3>Veggies seeds and Distributing</h3>
+                <p>View all Veggies seeds or veggies, from pumpkin seed to 5 tonnes of carrots</p>
+                <button>View products!</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <picture class="gk">
+                <!-- For smaller phones -->
+                <source media="(max-width: 799px)" srcset="./asset/gk/gk-800w.jpg">
+                <!-- For larger phones and desktops -->
+                <source media="(min-width: 800px)" srcset="./asset/gk/gk-480w.jpg">
+                <!-- Default image for browsers that do not support the <picture> element -->
+                <img src="./asset/gk/gk-800w.jpg" alt="Gardening tools" style="width: 100%;">
+            </picture>
+            <div class="card-text">
+                <h3>Gardening kit and fertilizer</h3>
+                <p>View all gardening tools and fertilizer for your backyard garden</p>
+                <button>View products!</button>
+            </div>
+        </div>
+        
+
+        </div>
+
+    </div>
+
+    <div class="contact-container" id="contact">
+        <div class="contact">
+            <h1>Our Office is located in the heart of Jakarta. To reach us :</h1>
+            <div class="contact-desc">
+                <p>Address: Matoa Golf G9, Jagakarsa Jakarta Selatan</p>
+                <p>Phone Number: <a href="tel:+6287988617782">+6287988617782</a></p>
+                <p>Email: <a href="mailto:contact@urbansolarium.com">contact@urbansolarium.com</a></p>
+                <p>Fax: +62993239239</p>
+            </div>
+        </div>
+        
+        <h1>Order through us!</h1>
+        <form class="myForm">
+            <label for="customer_name">Name </label>
+            <input type="text" name="customer_name" id="customer_name" required placeholder="name">
+            <label for="email_address" >Email </label>
+            <input type="email" name="email_address" id="email_address" required placeholder="Email">
+            <label for="phone" >Phone </label>
+            <input type="tel" name="phone" id="phone" required placeholder="+62xxxx.xxxx">
+            <div id="comment-box">
+                <label for="comments">Tell us what you need!</label>
+                <textarea name="comments" id="comments" maxlength="500" placeholder="tell us what you need"></textarea>
+            </div>
+            <label for="date" >When you needed those? </label>
+            <input type="date" name="date" id="date" required>
+            <button>Submit</button>
+            
+        </form>
+      </div>
+
+  </body>
+</html>

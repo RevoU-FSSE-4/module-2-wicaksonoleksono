@@ -46,6 +46,12 @@
     font-family: "Playfair Display", serif;
     font-size: 4em;
 }
+/* testimmonials */
+.comment {
+    font-style: italic;
+    color: #666;
+    font-size: 2em;
+  }
 /* form */
 .myForm  label {
     font-family: "Plus Jakarta Sans", sans-serif;

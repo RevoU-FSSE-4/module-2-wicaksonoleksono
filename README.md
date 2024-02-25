@@ -38,7 +38,8 @@ For detailed installation instructions, please refer to the [Documentation](#).
 
 <img src="./image/scrset.png" alt="Need for Hiring" width="800"/>
 
-
+### testimonials 
+![alt text](./image/testi.png)
 ## Contributing
 
 We welcome contributions from the community! Whether you want to report a bug, suggest a new feature, or submit a pull request, we appreciate your help. Please review our [Contribution Guidelines](CONTRIBUTING.md) for more information.
@@ -50,4 +51,4 @@ If you have any questions or feedback, feel free to reach out to us at [contact@
 
 ## Link netlify
 w
-[Ini link nya](https://65d8744b802729d3ab8e3dc8--ubiquitous-faloodeh-de2e57.netlify.app/)
+[Ini link nya](https://65dac74e24fc2a8083409907--peppy-croquembouche-781b73.netlify.app/)

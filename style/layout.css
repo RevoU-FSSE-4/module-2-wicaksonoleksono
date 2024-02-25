@@ -56,10 +56,39 @@
 }
 .grid-container > .card{
     border: 1px solid #ccc;
+    grid-gap: 10px;
 }
 
 .grid-container>.img picture{
     width: 100%;
+}
+/* new grid asymetrical */
+.grid-asymetrical{
+    width: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    grid-gap: 10px;
+}
+.grid-asymetrical> .box{
+    border: 1px solid black;
+}
+/* grid-area: column-start / column-start / row-end / column-end;
+Column means the top of the columns not the real 'column'
+order
+ */
+.grid-asymetrical > .box:nth-child(1){
+    grid-area: 1 / 1 / span 2/ span 3;
+}
+.grid-asymetrical > .box:nth-child(2){
+    grid-area: 1 /4/3/span 2;
+}
+.grid-asymetrical > .box:nth-child(3){
+    grid-area:3/1/span 3/span 4 ;
+}
+.grid-asymetrical > .box:nth-child(4){
+    grid-area:3/5/span 3/auto;
 }
 
 /* form */
@@ -96,6 +125,7 @@
     padding: 1em;
     border: none;
   }
+
   .myForm textarea {
    min-height: calc(100% - 2em);
    width: 100%;
@@ -103,7 +133,7 @@
   }
   #comment-box {
    grid-column: 3;
-   grid-row: span 3;
+   grid-row: span 6;
   }
   .myForm > button {
    grid-column: 2 / 4; 

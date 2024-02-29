@@ -1,14 +1,13 @@
 # Welcome to My Project
 
-This project is designed to help you get started with Wicaksono LLC website . Whether you're a developer looking to contribute or a user interested in learning more, you've come to the right place!
+This project is designed to help you get started with Urban Solarium website . Whether you're a developer looking to contribute or a user interested in learning more, you've come to the right place!
 
 ## About this website
 
-Wicaksono LLC is a revolutionary platform that aims to simplify website making with a third party. With a user-friendly interface and powerful features, Wicaksono LLC empowers users to have their own landing page for their business
-
+This is a website for urban solarium, 
 ## Getting Started
 
-To get started with Wicaksono LLC, follow these simple steps:
+To get started with urban solarium , follow these simple steps:
 
 1. Clone the repository to your local machine.
 2. Install the necessary dependencies.
@@ -38,17 +37,32 @@ For detailed installation instructions, please refer to the [Documentation](#).
 
 <img src="./image/scrset.png" alt="Need for Hiring" width="800"/>
 
+
+### testimonials 
+<img src="./image/testi.png" alt="Testimonials" width="800" />
+
+
 ### Branching
 
 #### Making new branch
-<img src="./new_image/making_new_branch.png" alt="Need for Hiring" width="800"/>
+<img src="./new_image/making_new_branch.png" alt="making_new_branch" width="800"/>
 
-#### Manubering through branch
-<img src="./new_image/Manuvering_branch.png" alt="Need for Hiring" width="800"/>
+#### Manuvering through branch
+<img src="./new_image/Manuvering_branch.png" alt="Manuvering_branch" width="800" />
+
+#### Pushing branch
+<img src="./new_image/pushing_branch.png" alt="Pushsing branch" width="800" />
+
+#### Pull request and merging
+<img src="./new_image/pull_request_and_merge.png" alt="request and merging" width="800" />
+
+#### Deleting branch
+<img src="./new_image/deleting_branch.png" alt="deleting branch " width="800"/>
+
+#### Pull after merge
+<img src="./new_image/pulling_after_merge.png" alt="pull request after merge" width="800" />
 
 
-### testimonials 
-![alt text](./image/testi.png)
 ## Contributing
 
 We welcome contributions from the community! Whether you want to report a bug, suggest a new feature, or submit a pull request, we appreciate your help. Please review our [Contribution Guidelines](CONTRIBUTING.md) for more information.

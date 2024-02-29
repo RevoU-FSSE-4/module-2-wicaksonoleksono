@@ -38,6 +38,15 @@ For detailed installation instructions, please refer to the [Documentation](#).
 
 <img src="./image/scrset.png" alt="Need for Hiring" width="800"/>
 
+### Branching
+
+#### Making new branch
+<img src="./new_image/making_new_branch.png" alt="Need for Hiring" width="800"/>
+
+#### Manubering through branch
+<img src="./new_image/Manuvering_branch.png" alt="Need for Hiring" width="800"/>
+
+
 ### testimonials 
 ![alt text](./image/testi.png)
 ## Contributing
@@ -50,5 +59,5 @@ If you have any questions or feedback, feel free to reach out to us at [contact@
 
 
 ## Link netlify
-w
+
 [Ini link nya](https://65dac74e24fc2a8083409907--peppy-croquembouche-781b73.netlify.app/)

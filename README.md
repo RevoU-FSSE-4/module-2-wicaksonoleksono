@@ -72,6 +72,6 @@ We welcome contributions from the community! Whether you want to report a bug, s
 If you have any questions or feedback, feel free to reach out to us at [contact@dev.wicaksonollc.com](mailto:contact@dev.wicaksonollc.com). We'd love to hear from you!
 
 
-## Link netlify
+## Link Custom domain
 
-[Ini link nya](https://65dac74e24fc2a8083409907--peppy-croquembouche-781b73.netlify.app/)
+[https://perlite.marlowsyards.shop/](https://perlite.marlowsyards.shop//)

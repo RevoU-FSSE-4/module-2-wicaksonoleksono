@@ -62,6 +62,11 @@ For detailed installation instructions, please refer to the [Documentation](#).
 #### Pull after merge
 <img src="./new_image/pulling_after_merge.png" alt="pull request after merge" width="800" />
 
+#### Custom domain
+<img src="./new_image/Custom_domain.png" alt="Custom_domain" width="800" />
+
+#### Domain information
+<img src="./new_image/domain_information.png" alt="domain_information" width="800" />
 
 ## Contributing
 

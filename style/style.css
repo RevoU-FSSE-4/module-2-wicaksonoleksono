@@ -71,7 +71,7 @@
 
 /* add to media querys */
 .banner{
-    background-image:url("./Image/Urbanfarming.jpg") ;
+    background-image:url("./Image/Urbanfarming.jpg");
     background-color: #cccccc;
     background-size: cover;
 }

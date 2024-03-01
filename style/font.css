@@ -52,6 +52,21 @@
     color: #666;
     font-size: 2em;
   }
+/* testimonials */
+.testimonials h1 {
+    font-size: 1.5em;
+  }
+  
+  .comment::before {
+    content: "\201C"; /* Unicode character for left double quotation mark */
+    font-size: 1em;
+  }
+  
+  .comment::after {
+    content: "\201D"; /* Unicode character for right double quotation mark */
+    font-size: 1em;
+    
+  }
 /* form */
 .myForm  label {
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -97,6 +112,21 @@
 .about-container>h1{
     font-size: 1.2em;
 }
+/* testimonials */
+.testimonials h1 {
+    font-size: 1em;
+  }
+  
+  .comment::before {
+    content: "\201C"; /* Unicode character for left double quotation mark */
+    font-size: 0.3em;
+  }
+  
+  .comment::after {
+    content: "\201D"; /* Unicode character for right double quotation mark */
+    font-size: 0.3em;
+    
+  }
 /* form */
 .myForm  label {
     font-size: 0.8em; 

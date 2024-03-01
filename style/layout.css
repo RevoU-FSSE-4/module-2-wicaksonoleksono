@@ -8,7 +8,7 @@
 
 }
 .nav {
-    margin-right: 1em;
+    margin-right:0;
     padding: 0.5em 1em;
 
 }
@@ -20,16 +20,14 @@
     margin: 0 1em;
 }
 /* cta */
-.banner{
-    padding: 2em;
-}
+
 .home-container{
-    margin: 8em;
-    margin-left: 2em;
     padding: 2em;
     padding-top: 0em;
 }
-
+.banner{
+    padding: 2em;
+}
 .button-container{
     margin: 2em 1em 1em 0em; 
     border: 3em;
@@ -41,8 +39,7 @@
 }
 /* about */
 .about-container{
-    margin: 10em;
-    margin-left: 4em;
+  
     border: 0em;
     padding: 0em;
 }
@@ -62,7 +59,25 @@
 .grid-container>.img picture{
     width: 100%;
 }
-/* new grid asymetrical */
+/* Testimonials */
+.testimonials {
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+  
+  .grid-asymetrical {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+  }
+  
+  .box {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 .grid-asymetrical{
     width: auto;
     height: 100vh;
@@ -74,10 +89,7 @@
 .grid-asymetrical> .box{
     border: 1px solid black;
 }
-/* grid-area: column-start / column-start / row-end / column-end;
-Column means the top of the columns not the real 'column'
-order
- */
+
 .grid-asymetrical > .box:nth-child(1){
     grid-area: 1 / 1 / span 2/ span 3;
 }
@@ -93,7 +105,9 @@ order
 
 /* form */
 .contact-container{
-    margin : 2em;
+    width: auto;
+    height: 100vh;
+    margin :0;
 
 }
 .card-text{
@@ -153,6 +167,10 @@ order
     }
     .card{
         margin-top: 0;
+    }
+    .contact-container {
+        margin-top: 80em; /* Adjust the value as needed */
+        
     }
 
 }

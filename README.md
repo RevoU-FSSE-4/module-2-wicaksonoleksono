@@ -18,7 +18,21 @@ For detailed installation instructions, please refer to the [Documentation](#).
 
 ## Screenshots
 
-### Dashboard
+## domain setup 
+
+### 1. Find Netlifty DNS through from nslookup.io
+<img src="./Module_2/1_find_dns.png" alt="Netlifty DNS through from nslookup.io" width="800">
+
+### 2. Put the Netlify DNS to cloudfare DNS management tab
+<img src="./Module_2/2_put_dns.png" alt="put netlify DNS to cloudfare DNS management tab" width="800">
+
+### 3. Set the Cloudflare Nameservers to the custom netlify Nameserver
+<img src="./Module_2/3_set_dns.png" alt="set cloudfare name server" width="800">
+
+### 4. Wait ~ 24 hours to get the DNS adress, then add your domain in netlify
+<img src="./Module_2/4.add_domain_to_netlify.pngs" alt="add_domain_to_netlify" width="800">
+
+<!-- ### Dashboard
 <img src="./image/dashboard.png" alt="Dashboard" width="800"/>
 
 ### About us
@@ -40,7 +54,7 @@ For detailed installation instructions, please refer to the [Documentation](#).
 
 ### testimonials 
 <img src="./image/testi.png" alt="Testimonials" width="800" />
-
+ -->
 
 ### Branching
 
@@ -79,4 +93,4 @@ If you have any questions or feedback, feel free to reach out to us at [contact@
 
 ## Link Custom domain
 
-[https://perlite.marlowsyards.shop/](https://perlite.marlowsyards.shop///)
+[https://perlite.marlowsyards.shop/](https://perlite.marlowsyards.shop/)
